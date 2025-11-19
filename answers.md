@@ -17,4 +17,10 @@ O((n+m)logn)
 And the Span is, in the regular sequential mode, span = O((n+m)logn).
 
 - **2b)**
+path = []
+while x in parent:
+      path.append(x)
+      x = parent[x]
+path.append(s)
+return "s -> ... -> x"
 
